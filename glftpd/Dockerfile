@@ -21,6 +21,7 @@ CMD ["/sbin/my_init"]
 
 # Add files
 ADD autoinst.sh /tmp/
+ADD config.sh /etc/my_init.d/
 
 # Add services to runit
 ADD glftpd.sh /etc/service/glftpd/run
